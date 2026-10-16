@@ -1,0 +1,52 @@
+# ===== C / C++ 编译产物 =====
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# ===== 构建目录 =====
+build/
+dist/
+out/
+Debug/
+Release/
+cmake-build-Debug/
+cmake-build-Release/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+
+# ===== 操作系统生成的文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 杂项 =====
+*.log
+*.tmp
+*.bak
